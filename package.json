@@ -8,7 +8,7 @@
     "webapp",
     "framework",
     "handler",
-    "utilities"
+    "utility"
   ],
   "scripts": {
     "coverage:upload": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
