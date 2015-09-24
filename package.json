@@ -1,0 +1,37 @@
+{
+  "name": "kj-handler-utils",
+  "version": "0.0.1",
+  "description": "Utility handlers for the kj webapp framework.",
+  "author": "Ron Elliott <ron@elliott.im>",
+  "license": "ISC",
+  "keywords": [
+    "webapp",
+    "framework",
+    "handler",
+    "utilities"
+  ],
+  "scripts": {
+    "coverage:upload": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "mocha",
+    "test:coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.19",
+    "mocha": "^2.3.0",
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronelliott/kj-handler-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ronelliott/kj-handler-utils/issues"
+  },
+  "homepage": "https://github.com/ronelliott/kj-handler-utils#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "is": "^3.0.1"
+  }
+}
