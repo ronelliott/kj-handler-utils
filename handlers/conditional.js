@@ -3,8 +3,8 @@
 var async = require('async'),
     is = require('is');
 
-module.exports = function($opts) {
-    return function($$app, $caller, $req, $res, $next) {
+module.exports = function($opts, $$app) {
+    return function($caller, $req, $res, $next) {
         function doCallback(err) {
             $next(err && err.handled ? null : err);
         }
