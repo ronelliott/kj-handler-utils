@@ -16,12 +16,12 @@
     "test:coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   },
   "devDependencies": {
-    "coveralls": "^2.11.4",
-    "istanbul": "^0.3.19",
-    "mocha": "^2.3.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
     "reflekt": "^0.3.9",
-    "should": "^7.1.0",
-    "sinon": "^1.16.1"
+    "should": "^8.3.0",
+    "sinon": "^1.17.3"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/ronelliott/kj-handler-utils#readme",
   "dependencies": {
-    "async": "^1.4.2",
-    "is": "^3.0.1"
+    "async": "^1.5.2",
+    "is": "^3.1.0"
   }
 }
