@@ -1,7 +1,7 @@
 'use strict';
 
-var async = require('async'),
-    is = require('is');
+const async = require('async'),
+      is = require('is');
 
 module.exports = function($opts, $$app) {
     return function($caller, $req, $res, $next) {
